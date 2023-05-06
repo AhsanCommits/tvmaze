@@ -48,11 +48,18 @@ function ShowDetails() {
 
                         (<p><b>Schedule:</b> Not Available</p>)
                     }
-                    <Link to={`/`}>
-                        <button>
-                            Back to Home
-                        </button>
-                    </Link>
+                    <div className='buttons_container'>
+                        <Link to={`/`}>
+                            <button>
+                                Back to Home
+                            </button>
+                        </Link>
+                        <Link to={`/booking/${id}`}>
+                            <button>
+                                Book a Ticket
+                            </button>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>

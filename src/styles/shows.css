@@ -6,15 +6,6 @@
     rgba(148, 187, 233, 1) 100%
   );
 }
-.loading_section {
-  width: 100%;
-  height: 80vh;
-  display: grid;
-  place-items: center;
-}
-.loading {
-  font-size: 6rem;
-}
 
 .showSection {
   background-color: #fff !important;
@@ -73,6 +64,17 @@
   align-items: center;
   /* background-color: #90caf9; */
   flex-wrap: wrap;
+}
+
+/*for the loading section */
+.loading_section {
+  width: 100%;
+  height: 80vh;
+  display: grid;
+  place-items: center;
+}
+.loading {
+  font-size: 6rem;
 }
 
 @media screen and (max-width: 768px) {

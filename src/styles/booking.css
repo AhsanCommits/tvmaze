@@ -1,0 +1,51 @@
+/*for the main contact two section*/
+
+.contact_section {
+  margin: 6rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_section span {
+  color: #16a085;
+}
+
+.contact_form {
+  max-width: 48rem;
+  min-width: 32rem;
+  padding: 3.2rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  text-align: left;
+}
+
+.input_field {
+  margin-bottom: 2rem;
+}
+
+.label {
+  font-size: 1.5rem;
+  display: block;
+  text-transform: capitalize;
+}
+
+.contact_form input,
+.contact_form textarea {
+  display: block;
+  border: none;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.success_msg {
+  color: #a8e48a;
+}
+
+.error_msg {
+  color: red;
+}
