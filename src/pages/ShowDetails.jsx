@@ -24,6 +24,10 @@ function ShowDetails() {
         </section>
     }
     const imgURL = show.image ? show.image.original : logo;
+    const btn = {
+        backgroundColor: "#f44336",
+        marginLeft: "1rem"
+    };
     return (
         <div className="container">
             <div className='grid_two_section'>
@@ -48,6 +52,7 @@ function ShowDetails() {
 
                         (<p><b>Schedule:</b> Not Available</p>)
                     }
+
                     <div className='buttons_container'>
                         <Link to={`/`}>
                             <button>
@@ -55,7 +60,7 @@ function ShowDetails() {
                             </button>
                         </Link>
                         <Link to={`/booking/${id}`}>
-                            <button>
+                            <button style={btn}>
                                 Book a Ticket
                             </button>
                         </Link>
